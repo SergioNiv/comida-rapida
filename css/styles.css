@@ -248,7 +248,7 @@ html {
 #main--btn-rigth {
   right: 0;
 }
-/*sección secundaria */
+/*sección secundaria grid servicios */
 .main--second-section {
   margin-top: 6rem;
   width: 100%;
@@ -277,9 +277,14 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  padding-bottom: 4rem;
 }
 .second--container-img {
   display: none;
+}
+.container--item-yellow {
+  max-width: 300px;
+  justify-self: end;
 }
 .container--item-yellow span {
   width: 95px;
@@ -294,7 +299,10 @@ html {
   background: var(--color-primario);
   color: #fff;
 }
-
+.container--item-red {
+  max-width: 300px;
+  justify-self: start;
+}
 .container--item-red span {
   width: 95px;
   font-size: 4rem;
@@ -320,9 +328,10 @@ html {
   font-style: italic;
   padding: 0 10px;
   margin-bottom: 30px;
+  padding: 0 20px;
 }
 
-/* tercera sección  */
+/* tercera sección staff de cheffs */
 
 #main--there-section {
   height: 100vh;
@@ -398,7 +407,7 @@ html {
   transform: scale(2);
 }
 
-/* cuarta sección  */
+/* cuarta sección de ingredientes */
 
 #main--section-ingredients {
   display: flex;
@@ -453,19 +462,19 @@ html {
 /* cuarta sección contáctanos-------------------*/
 
 #contacto {
-  height: 100vh;
-  padding: 3rem;
+  max-width: 800px;
+  padding: 0 3rem;
   position: relative;
+  margin: 0 auto;
 }
 
 #formulario {
-  width: 100%;
   margin: 50px auto;
 }
 
 .two-fiels {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 
