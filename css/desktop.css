@@ -1,0 +1,69 @@
+/*header desktop-------------------------*/
+#header--button-open {
+  display: none;
+}
+
+#header--button-close {
+  display: none;
+}
+.header--navegation {
+  width: 100%;
+  display: flex;
+  transform: translateY(0%);
+  background-color: transparent;
+  position: static;
+  z-index: 0;
+  padding-bottom: 0px;
+}
+.header--navegation-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+.header--navegation-list a {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.header--sociales {
+  min-width: 100px;
+  width: 300px;
+  max-width: 400px;
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 2rem;
+}
+.header--sociales a {
+  padding: 5px 10px;
+}
+/*slider producto-------------------------*/
+.main--primary-section {
+  text-align: left;
+}
+.primary--section-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.section--container-peperonni {
+  width: 60%;
+  margin-top: 0;
+  margin-right: 10vw;
+}
+.primary--conteiner-description {
+  width: 50%;
+  margin-left: 10vw;
+}
+
+.primary--section-subtitle {
+  font-size: 2vw;
+}
+
+.primary--section-title {
+  font-size: 5vw;
+  margin: 10px 0;
+}
